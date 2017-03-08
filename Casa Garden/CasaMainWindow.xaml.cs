@@ -24,5 +24,11 @@ namespace Casa_Garden
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            //call casa sign in page
+            this.window.Navigate(typeof(Casasigninpage));
+        }
     }
 }
